@@ -1,4 +1,4 @@
-# Ticket Booking System
+# Train Ticket Booking System
 
 A full-stack ticket booking application enabling users to efficiently reserve train seats with advanced features like real-time updates and user-friendly management.
 
@@ -39,6 +39,13 @@ This system allows users to book train tickets seamlessly while adhering to a st
 
 ![Signin Screen](https://github.com/user-attachments/assets/dae5c798-184e-416a-8ef4-dada4263320b)
 
+- **Invalid Credentials**: If a user attempts to sign in without prior signup, the error "Invalid credentials" is displayed.
+  ![Invalid Credentials](https://github.com/user-attachments/assets/889a87fe-5683-46d2-91be-6eb868515eb0)
+- **User Already Exists**: If a user tries to signup with an already registered email, the error "User already exists" is displayed.
+  ![User Already Exists](https://github.com/user-attachments/assets/f8c3a97c-59e2-42e0-835e-23bf9b43bc2c)
+- **Successful Signin**: Upon successful login, the message "Successfully signed in!" is shown.
+  ![Successful Signin](https://github.com/user-attachments/assets/6a432d61-ce89-416c-8991-901a62c54b3e)
+
 ### Dashboard
 
 **Features**:
@@ -49,6 +56,9 @@ This system allows users to book train tickets seamlessly while adhering to a st
 - Real-time updates for seat availability.
 
 ![Dashboard](https://github.com/user-attachments/assets/61fb5ef3-3e1c-46fc-9fff-65f38a167e5f)
+
+- **Seat Booking Confirmation**: If a user successfully books available seats, the message "Seats booked successfully!" is displayed.
+- **Ticket Cancellation**: If a user cancels a booking, the message "Booking cancelled successfully" is shown.
 
 ### My Bookings
 
@@ -182,8 +192,15 @@ This system allows users to book train tickets seamlessly while adhering to a st
 ### Best Practices Followed
 
 - Input validation and sanitization for security.
-- Error handling for all user actions (e.g., invalid input, unauthorized access).
+- Error handling for all user actions (e.g., invalid input, unauthorized access, duplicate actions).
 - Code readability and maintainability with clear comments.
 - Responsiveness for seamless performance across devices.
+
+---
+
+## Contributors
+
+- **Developer**: [Tharuun M]
+- **Contact**: [tharuun2412@gmail.com]
 
 ---
